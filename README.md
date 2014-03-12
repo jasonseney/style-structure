@@ -2,7 +2,7 @@
 
 [View the example site &raquo;](http://jasonseney.github.io/style-structure/)
 
-Styles are broken into 4 parts: **[** [Reset](#resetstyles), [Theme](#1-theme-styles), [Component](#2component-styles), [Context](#4context-styles) **]**.
+Styles are broken into 4 parts: **[** [Reset](#1-reset-styles), [Theme](#2-theme-styles), [Component](#3-component-styles), [Context](#4-context-styles) **]**.
 
 1. Reset Styles
 ---------------
