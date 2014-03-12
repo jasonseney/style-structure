@@ -119,7 +119,7 @@ Guidelines
 - If you're writing the same pattern of CSS multiple times, consider creating a mixin.
 - Consider that some `<a>` elements might need to look exactly like `<button>` elements. Use a decorator class and do not rely on element names for these scenarios.
 - Do not style `<h>` elements (used for SEO)
-- While SASS the nesting can be very helpful, keep it sane and try not to to go more than 3 levels deep.
+- While SASS nesting can be very helpful, keep it sane and try not to to go more than 3 levels deep.
 
 Warnings and areas of caution:
 
