@@ -14,16 +14,22 @@
                 width: 300px;
                 margin: 20px auto;
             }
+            @media screen and ( min-width: 480px )
+            {
+                #content {
+                    width: calc(480px * .90);
+                }
+            }
             @media screen and ( min-width: 768px )
             {
                 #content {
-                    width: 728px;
+                    width: calc(728px * .90);
                 }
             }
             @media screen and ( min-width: 1024px )
             {
                 #content {
-                    width: 944px;
+                    width: calc(1024px * .90);
                 }
             }
 
