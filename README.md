@@ -4,8 +4,6 @@ title: Style Structure
 
 # Style Structure 
 
-* * * 
-
 Resets 
 ------
 
