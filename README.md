@@ -1,3 +1,7 @@
+---
+title: Style Structure
+---
+
 # Style Structure 
 
 * * * 
