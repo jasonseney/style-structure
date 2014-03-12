@@ -1,5 +1,6 @@
 ---
 title: Style Structure
+layout: clean
 ---
 
 # Style Structure 
