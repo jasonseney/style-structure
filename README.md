@@ -5,6 +5,8 @@ layout: clean
 
 # Style Structure 
 
+*[View the example site here](http://jasonseney.github.io/style-structure/)*
+
 Resets 
 ------
 
