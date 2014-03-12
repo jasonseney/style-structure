@@ -15,10 +15,10 @@ Theme
 
 ### Variables 
 
-    - Fonts 
-    - Colors 
-    - Borders 
-    - Shadows 
+- Fonts 
+- Colors 
+- Borders 
+- Shadows 
 
 ### Sprites / Icons 
 
