@@ -14,7 +14,7 @@ Remove all styling for all elements. Will also normalize across browsers. Yahoo 
 
 ### Variables 
 
-SASS variables should be set in two levels: 
+SASS variables should be set in **two** levels: 
 
 1. Mapping names to values
     - Example: `$med_blue : #3333FF;`
@@ -30,10 +30,6 @@ Variable types:
 - Borders 
 - Shadows 
 
-### Sprites / Icons 
-
-_Coming soon..._
-
 ### Baseline Styles
 
 For all HTML elements, set base properties such as:
@@ -42,6 +38,10 @@ For all HTML elements, set base properties such as:
 - Basic theming 
     - Create a more sane baseline on top of the reset
     - Apply many of the variable settings from above
+
+### Sprites / Icons / Custom Fonts 
+
+_Coming soon..._
 
 ### Decorator Classes 
 
@@ -66,19 +66,20 @@ Example:
 
     .pop-menu {
         display: inline-block;
-    }
-    .pop-menu .inner {
-        padding: 5px 0;
-        background-color: $light_bg;
-        @include rounded_shadow_box;
-    }
-    .pop-menu .item-option {
-        cursor: pointer;
-        padding: 5px 8px;
-        color: $med_text_color;
-    }
-    .pop-menu .item-option:hover {
-        background: $menu_hover_bg;
+
+        .inner {
+            padding: 5px 0;
+            background-color: $light_bg;
+            @include rounded_shadow_box;
+        }
+        .item-option {
+            cursor: pointer;
+            padding: 5px 8px;
+            color: $med_text_color;
+            &:hover {
+                background: $menu_hover_bg;
+            }
+        }
     }
 
 
@@ -118,6 +119,7 @@ Guidelines
 - If you're writing the same pattern of CSS multiple times, consider creating a mixin.
 - Consider that some `<a>` elements might need to look exactly like `<button>` elements. Use a decorator class and do not rely on element names for these scenarios.
 - Do not style `<h>` elements (used for SEO)
+- While SASS the nesting can be very helpful, keep it sane and try not to to go more than 3 levels deep.
 
 Warnings and areas of caution:
 
